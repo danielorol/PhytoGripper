@@ -28,7 +28,6 @@ def listener():
 
 
 def talker():
-    # rospy.ServiceProxy('/gazebo/unpause_physics', Empty)
     force = rospy.ServiceProxy('/gazebo/apply_joint_effort', ApplyJointEffort)
     joint_state = rospy.ServiceProxy('/gazebo/get_joint_properties', GetJointProperties)
     target_joint_state = rospy.ServiceProxy('/gazebo/set_joint_properties', SetJointProperties)
@@ -39,7 +38,7 @@ def talker():
     t = time.clock()
     k = 1
     k2 = -0.3
-    kd = 0.1
+    kd = 0.15
     while not rospy.is_shutdown():
         t2 = time.clock()
         joint_pos = joint_state("PhytobiopsyAssembly::Arm_joint").position[0]
