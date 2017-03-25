@@ -85,7 +85,7 @@
 </limit>
 <xyz>0 1 0</xyz>
 <dynamics>
-<friction>0.02</friction>
+<friction>0.2</friction>
 </dynamics>
 </axis>
 </joint>
