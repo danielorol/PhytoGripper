@@ -8,14 +8,14 @@
 
 <inertial>
 <pose> 0.12 0.07 0.16 0 0 0</pose>
-<mass> 0.15502294</mass>
+<mass> 0.22751</mass>
 <inertia>
-<ixx>0.00016521</ixx>
-<iyy>0.00074812</iyy>
-<izz>0.00087562</izz>
-<ixy>-0.00008580</ixy>
-<ixz>0.00000674</ixz>
-<iyz>-0.00000277</iyz>
+<ixx>0.00023475543</ixx>
+<iyy>0.00073669092</iyy>
+<izz>0.00092412105</izz>
+<ixy>0.00000364703</ixy>
+<ixz>0.00000048495</ixz>
+<iyz>-0.00000315664</iyz>
 </inertia>
 </inertial>
 
@@ -44,14 +44,14 @@
 
 <inertial>
 <pose> 0.115 0.07 0.16 0 0 0</pose>
-<mass> 0.12067183</mass>
+<mass> 0.15684</mass>
 <inertia>
-<ixx>0.00017544</ixx>
-<iyy>0.00057466</iyy>
-<izz>0.00065738</izz>
-<ixy>-0.00009377</ixy>
-<ixz>0.00009018</ixz>
-<iyz>-0.00004054</iyz>
+<ixx>0.00019529778</ixx>
+<iyy>0.00124753983</iyy>
+<izz>0.00134322318</izz>
+<ixy>-0.00019292875</ixy>
+<ixz>0.00013226436</ixz>
+<iyz>-0.00004812716</iyz>
 </inertia>
 </inertial>
 
@@ -85,7 +85,8 @@
 </limit>
 <xyz>0 1 0</xyz>
 <dynamics>
-<friction>0.2</friction>
+<friction>0.01</friction>
+<damping>0.015</damping>
 </dynamics>
 </axis>
 </joint>
