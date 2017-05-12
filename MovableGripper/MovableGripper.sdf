@@ -7,15 +7,15 @@
 <pose>0.0855 -0.12 -0.115 0 0 0</pose>
 
 <inertial>
-<pose> 0.12 0.07 0.16 0 0 0</pose>
-<mass> 0.15502294</mass>
+<pose> 0.105 0.079 0.165 0 0 0</pose>
+<mass> 0.03251090</mass>
 <inertia>
-<ixx>0.00016521</ixx>
-<iyy>0.00074812</iyy>
-<izz>0.00087562</izz>
-<ixy>-0.00008580</ixy>
-<ixz>0.00000674</ixz>
-<iyz>-0.00000277</iyz>
+<ixx>0.00000957</ixx>
+<iyy>0.00011708</iyy>
+<izz>0.00012190</izz>
+<ixy>0.00000092</ixy>
+<ixz>-0.00000366</ixz>
+<iyz>-0.00000004</iyz>
 </inertia>
 </inertial>
 
@@ -43,7 +43,7 @@
 <pose>0.2695 -0.119 -0.115 0 0 0</pose>
 
 <inertial>
-<pose> 0.115 0.07 0.16 0 0 0</pose>
+<pose> 0.115 0.0925 0.16 0 0 0</pose>
 <mass> 0.12067183</mass>
 <inertia>
 <ixx>0.00017544</ixx>
@@ -78,15 +78,15 @@
 <pose>0.012 0.0025 0.03 1.5708 0 0</pose>
 
 <inertial>
-<pose> 0 0 0 0 0 0</pose>
-<mass> 0.12067183</mass>
+<pose> 0.049 0.023 0.034 0 1.5708 0</pose>
+<mass> 0.195</mass>
 <inertia>
-<ixx>0.00017544</ixx>
-<iyy>0.00057466</iyy>
-<izz>0.00065738</izz>
-<ixy>-0.00009377</ixy>
-<ixz>0.00009018</ixz>
-<iyz>-0.00004054</iyz>
+<ixx>0.00023607</ixx>
+<iyy>0.00034643</iyy>
+<izz>0.00015122</izz>
+<ixy>0.00000945</ixy>
+<ixz>0.00001664</ixz>
+<iyz>0.00000758</iyz>
 </inertia>
 </inertial>
 
@@ -113,15 +113,15 @@
 <pose>0.016 0.0027 0.048 1.5708 0 0</pose>
 
 <inertial>
-<pose> 0 0 0 0 0 0</pose>
-<mass> 0.12067183</mass>
+<pose> 0.03 0.02 0.035 0 1.5708 0</pose>
+<mass> 0.0256372</mass>
 <inertia>
-<ixx>0.00017544</ixx>
-<iyy>0.00057466</iyy>
-<izz>0.00065738</izz>
-<ixy>-0.00009377</ixy>
-<ixz>0.00009018</ixz>
-<iyz>-0.00004054</iyz>
+<ixx>0.00001361</ixx>
+<iyy>0.00002058</iyy>
+<izz>0.00000766</izz>
+<ixy>0.00000062</ixy>
+<ixz>0.00000175</ixz>
+<iyz>0.00000022</iyz>
 </inertia>
 </inertial>
 
@@ -148,15 +148,15 @@
 <pose>0.0545 0.4575 0.217 1.5708 0 -1.5708</pose>
 
 <inertial>
-<pose> 0 0 0 0 0 0</pose>
-<mass> 0.12067183</mass>
+<pose> 0.51 -0.155 0.022 0 0 0</pose>
+<mass> 0.00983358</mass>
 <inertia>
-<ixx>0.00017544</ixx>
-<iyy>0.00057466</iyy>
-<izz>0.00065738</izz>
-<ixy>-0.00009377</ixy>
-<ixz>0.00009018</ixz>
-<iyz>-0.00004054</iyz>
+<ixx>0.00000270</ixx>
+<iyy>0.00001009</iyy>
+<izz>0.00000795</izz>
+<ixy>-0.00000021</ixy>
+<ixz>-0.00000344</ixz>
+<iyz>0.00000014</iyz>
 </inertia>
 </inertial>
 
