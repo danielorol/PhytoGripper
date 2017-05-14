@@ -1,0 +1,300 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="tree_model">
+	<pose>0 0 0.125 0 0 0</pose>
+	<self_collide>true</self_collide>
+	<link name = "stationary">
+		<inertial>
+		<mass>1000</mass>
+        	<inertia>
+          	<ixx>10</ixx>
+          	<ixy>10</ixy>
+          	<ixz>10</ixz>
+          	<iyy>10</iyy>
+          	<iyz>10</iyz>
+          	<izz>10</izz>
+        	</inertia>
+      	</inertial>
+	<visual name="stationary_visual">
+		<geometry>
+		<cylinder>
+		<radius>0.05</radius>
+		<length>0.25</length>
+		</cylinder>
+		</geometry>
+	</visual>
+        <collision name="stationary_collision">
+                <geometry>
+                <cylinder>
+                <radius>0.05</radius>
+                <length>0.25</length>
+                </cylinder>
+		</geometry>
+        </collision>
+	</link>
+
+       <link name = "branch1joint">
+                <pose> 0 0 0.14 0 0 0 </pose>
+                <inertial>
+                <mass>0.0001</mass>
+                <inertia>
+                <ixx>0.0000030225</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.0000030225</iyy>
+                <iyz>0</iyz>
+                <izz>0.0000030225</izz>
+                </inertia>
+        </inertial>
+        <visual name="branch1joint_visual">
+                <geometry>
+                <sphere>
+                <radius>0.01</radius>
+                </sphere>
+                </geometry>
+        </visual>
+        <collision name="branch1joint_collision">
+                <geometry>
+                <sphere>
+                <radius>0.01</radius>
+                </sphere>
+                </geometry>
+        </collision>
+        </link>
+
+       <link name = "branch1">
+		<pose> 0.15 0 0.42 0 0.5236 0 </pose> 
+                <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                <ixx>0.0030225</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.0030225</iyy>
+                <iyz>0</iyz>
+                <izz>0.000045</izz>
+                </inertia>
+        </inertial>
+        <visual name="branch1_visual">
+                <geometry>
+                <cylinder>
+                <radius>0.03</radius>
+                <length>0.6</length>
+                </cylinder>
+                </geometry>
+        </visual>
+        <collision name="branch1_collision">
+                <geometry>
+                <cylinder>
+                <radius>0.03</radius>
+                <length>0.6</length>
+                </cylinder>
+                </geometry>
+        </collision>
+        </link>
+       
+       <link name = "branch2joint">
+                <pose> 0.305 0 0.70 0 0 0 </pose>
+                <inertial>
+                <mass>0.0001</mass>
+                <inertia>
+                <ixx>0.0000030225</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.0000030225</iyy>
+                <iyz>0</iyz>
+                <izz>0.0000030225</izz>
+                </inertia>
+        </inertial>
+        <visual name="branch2joint_visual">
+                <geometry>
+                <sphere>
+                <radius>0.01</radius>
+                </sphere>
+                </geometry>
+        </visual>
+        <collision name="branch2joint_collision">
+                <geometry>
+                <sphere>
+                <radius>0.01</radius>
+                </sphere>
+                </geometry>
+        </collision>
+        </link>
+
+       <link name = "branch2">
+                <pose> 0.371 0 0.935 0 0.2618 0 </pose>
+                <inertial>
+                <mass>0.07</mass>
+                <inertia>
+                <ixx>0.00171</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00171</iyy>
+                <iyz>0</iyz>
+                <izz>0.000045</izz>
+                </inertia>
+        </inertial>
+        <visual name="branch2_visual">
+                <geometry>
+                <cylinder>
+                <radius>0.03</radius>
+                <length>0.45</length>
+                </cylinder>
+                </geometry>
+        </visual>
+        <collision name="branch2_collision">
+                <geometry>
+                <cylinder>
+                <radius>0.03</radius>
+                <length>0.6</length>
+                </cylinder>
+                </geometry>
+        </collision>
+        </link>
+
+       <link name = "leaf1joint">
+                <pose> 0.43 0 1.165 0 0 0 </pose>
+                <inertial>
+                <mass>0.0001</mass>
+                <inertia>
+                <ixx>0.0000030225</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.0000030225</iyy>
+                <iyz>0</iyz>
+                <izz>0.0000030225</izz>
+                </inertia>
+        </inertial>
+        <visual name="leaf1joint_visual">
+                <geometry>
+                <sphere>
+                <radius>0.01</radius>
+                </sphere>
+                </geometry>
+        </visual>
+        <collision name="leaf1joint_collision">
+                <geometry>
+                <sphere>
+                <radius>0.01</radius>
+                </sphere>
+                </geometry>
+        </collision>
+        </link>
+
+
+        <link name = "leaf1">
+                <pose> 0.475 0 1.18 0 0 0 </pose>
+                <inertial>
+                <mass>0.01</mass>
+                <inertia>
+                <ixx>0.00000171</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00000171</iyy>
+                <iyz>0</iyz>
+                <izz>0.00000045</izz>
+                </inertia>
+        </inertial>
+        <visual name="leaf1_visual">
+                <geometry>
+                <box>
+                <size>0.1 0.05 0.005</size>
+                </box>
+                </geometry>
+        </visual>
+        <collision name="leaf2_collision">
+                <geometry>
+                <box>
+                <size>0.1 0.05 0.005</size>
+                </box>
+                </geometry>
+         </collision>
+        </link>
+
+	<joint name="branch1_joint" type="revolute">
+	<parent>branch1joint</parent>
+	<child>stationary</child>
+	<axis>
+                <xyz>0 1 0</xyz>
+                <dynamics>
+                <damping>0.15</damping>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>2.7</spring_stiffness>
+                </dynamics>
+	</axis>
+	<pose>0 0 0.125 0 0 0</pose>
+	</joint>
+
+        <joint name="branch1_joint2" type="revolute">
+        <parent>branch1</parent>
+        <child>branch1joint</child>
+        <axis>
+                <xyz>1 0 0</xyz>
+                <dynamics>
+                <damping>0.2</damping>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>3.4</spring_stiffness>
+                </dynamics>
+        </axis>
+        <pose>0 0 0 0 0 0</pose>
+        </joint>
+        
+	<joint name="branch2_joint" type="revolute">
+        <parent>branch2joint</parent>
+        <child>branch1</child>
+        <axis>
+                <xyz>1 0 0</xyz>
+                <dynamics>
+                <damping>0.01</damping>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>1.9</spring_stiffness>
+                </dynamics>
+        </axis>
+        <pose>0 0 0 0 0 0</pose>
+        </joint>
+
+        <joint name="branch2_joint2" type="revolute">
+        <parent>branch2joint</parent>
+        <child>branch2</child>
+        <axis>
+                <xyz>0 1 0</xyz>
+                <dynamics>
+                <damping>0.2</damping>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>3.15</spring_stiffness>
+                </dynamics>
+        </axis>
+        <pose>-0.05 0 0 0 0 0</pose>
+        </joint>
+
+        <joint name="leaf1_joint" type="revolute">
+        <parent>leaf1joint</parent>
+        <child>branch2</child>
+        <axis>
+                <xyz>0 1 0</xyz>
+                <dynamics>
+                <damping>0.12</damping>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>1.85</spring_stiffness>
+                </dynamics>
+        </axis>
+        <pose>-0.05 0 -0.008 0 0 0</pose>
+        </joint>
+
+        <joint name="leaf1_joint2" type="revolute">
+        <parent>leaf1joint</parent>
+        <child>leaf1</child>
+        <axis>
+                <xyz>0 1 0</xyz>
+                <dynamics>
+                <damping>0.01</damping>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>2.35</spring_stiffness>
+                </dynamics>
+        </axis>
+        <pose>-0.05 0 -0.008 0 0 0</pose>
+        </joint>
+
+  </model>
+</sdf>
