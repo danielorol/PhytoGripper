@@ -2,11 +2,11 @@
 <sdf version='1.5'>
  <model name="phyto">
 
-    <include>
+<!--    <include>
       <uri>model://big_box</uri>
       <pose>1 1 0.75 0 0 0</pose>
    </include>
-
+-->
 
     <include>
       <uri>model://f450</uri>
@@ -14,12 +14,12 @@
    </include>
 
     <include>
-      <uri>model://PhytobiopsyAssembly</uri>
+      <uri>model://MovableGripper</uri>
       <pose>0.443 -0.027 0.662 0 0 3.1415926</pose>
     </include>
 
     <joint name="gripper_joint" type="revolute">
-      <parent>PhytobiopsyAssembly::Top</parent>
+      <parent>MovableGripper::top</parent>
       <child>f450::base_link</child>
       <axis>
         <limit>
@@ -29,7 +29,8 @@
         <xyz>1 0 0</xyz>
       </axis>
     </joint>
-    <joint name="stationary" type="revolute">
+ 
+<!--   <joint name="stationary" type="revolute">
       <parent>Big box::link</parent>
       <child>f450::base_link</child>
       <axis>
@@ -40,7 +41,7 @@
         <xyz>1 0 0</xyz>
       </axis>
     </joint>
-
+-->
 <self_collide>false</self_collide>
   </model>
 
